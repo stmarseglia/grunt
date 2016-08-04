@@ -63,9 +63,7 @@ module.exports = function(grunt) {
   });
 
   grunt.loadNpmTasks('grunt-contrib-uglify');
-  grunt.loadNpmTasks('grunt-contrib-copy');
-  grunt.loadNpmTasks('grunt-contrib-compress');
-  grunt.loadNpmTasks('grunt-contrib-connect');
+
 
   // Quando si lancia il comando grunt senza specificare il goal, viene eseguito 'default', che prevede di eseguire i task passati come secondo argomento
   grunt.registerTask('default', ['uglify','copy']);
