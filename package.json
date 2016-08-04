@@ -1,0 +1,15 @@
+{
+  "name": "examples",
+  "version": "1.0.0",
+  "description": "This is an example usage of grunt",
+  "keywords": [
+    "grunt"
+  ],
+  "author": "Stefano Marseglia",
+  "devDependencies": {
+    "grunt": "~0.4.5",
+    "grunt-cli": "^1.2.0",
+    "grunt-contrib-uglify": "~2.0.0",
+    "grunt-contrib-watch": "~1.0.0"
+  }
+}
